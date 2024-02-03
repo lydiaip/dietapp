@@ -39,14 +39,14 @@ class IntroPage extends StatelessWidget {
                   context, MaterialPageRoute(builder: (context) => HomePage())),
               child: Container(
                 decoration: BoxDecoration(
-                  color: Color.fromARGB(255, 185, 185, 172), // A beige color
+                  color: Color.fromARGB(255, 240, 213, 173), // A beige color
                   borderRadius: BorderRadius.circular(12),
                 ),
                 child: Padding(
                   padding: const EdgeInsets.all(15),
                   child: Center(
                     child: const Text(
-                      'Get new recipe',
+                      'Plan meals',
                       style: TextStyle(
                           fontWeight: FontWeight.bold,
                           fontSize: 25,
